@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import {service} from '../components/export'
-import { useDarkMode } from '../components/DarkModeContext'
+// import { useDarkMode } from '../components/DarkModeContext'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -46,4 +46,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;
